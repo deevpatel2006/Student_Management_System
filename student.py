@@ -9,7 +9,8 @@ def add_student(students, name, roll_no, department):
 
 
 def display_students(students):
-    print("Student Details")
+    print("===== Student Management System =====")
+    print("Student Details")        
 
     for student in students:
         print("Name:", student["name"])
