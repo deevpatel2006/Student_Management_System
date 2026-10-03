@@ -17,3 +17,14 @@ def display_students(students):
         print("Roll No:", student["roll_no"])
         print("Department:", student["department"])
         print()
+
+def search_student(students, roll_no):
+    for student in students:
+        if student["roll_no"] == roll_no:
+            print("Student Found")
+            print("Name:", student["name"])
+            print("Roll No:", student["roll_no"])
+            print("Department:", student["department"])
+            return
+
+    print("Student Not Found")
