@@ -16,3 +16,4 @@ mark_attendance(attendance, 101, "Present")
 mark_attendance(attendance, 102, "Absent")
 
 display_attendance(attendance)
+print("GitHub integration completed")
